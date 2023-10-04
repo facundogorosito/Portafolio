@@ -169,3 +169,9 @@ html{
     display: flex;
     flex-wrap: wrap;
 }
+.sobremi .fila .col .contenedor-intereses .intereses {
+    width: 100px;
+}.sobremi .fila .col .contenedor-intereses .intereses:hover{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
