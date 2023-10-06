@@ -171,7 +171,44 @@ html{
 }
 .sobremi .fila .col .contenedor-intereses .intereses {
     width: 100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;    
 }.sobremi .fila .col .contenedor-intereses .intereses:hover{
+    background-color: #1b9f85;
+}
+.sobremi .fila .col .contenedor-intereses .intereses i{
     font-size: 30px;
     margin-bottom: 10px;
+}
+.sobremi button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff9f9;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #18cda9;
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
 }
