@@ -275,3 +275,74 @@ html{
     right: -15px;
     font-size: 14px;
 }
+
+/* Estas clases se agregan dinamicamente */
+
+.skills .skill .javascript {
+    width: 0%;
+    animation:  2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .htmlycss {
+    width: 0%;
+    animation:  2s htmlycss forwards;
+}
+@keyframes htmlycss {
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+
+.skills .skill .react {
+    width: 0%;
+    animation:  2s react forwards;
+}
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+.skills .skill .comunica {
+    width: 0%;
+    animation:  2s comunica forwards;
+}
+@keyframes comunica {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .teamwork {
+    width: 0%;
+    animation:  2s teamwork forwards;
+}
+@keyframes teamwork {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .skill .crea {
+    width: 0%;
+    animation:  2s crea forwards;
+}
+@keyframes crea {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.skills .skill .dedicacion {
+    width: 0%;
+    animation:  2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 69%;}
+}
+.skills .skill .proyect {
+    width: 0%;
+    animation:  2s proyect forwards;
+}
+@keyframes proyect {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
