@@ -188,7 +188,7 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button {
+.sobremi button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -200,6 +200,10 @@ html{
     color: #fff9f9;
     position: relative;
     z-index: 10;
+}
+.sobremi button .Prueba{
+    text-decoration: none;
+    color: #fff9f9;
 }
 .sobremi button .overlay{
     position: absolute;
